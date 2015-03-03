@@ -10,14 +10,7 @@ namespace HumanResourcesLibrary.DataClasses
     {
         public SocialNetwork CreateDeepCopy()
         {
-            SocialNetwork copy = new SocialNetwork();
-            copy.Type = this.Type;
-            copy.Link = this.Link;
-            return copy;
+            throw new NotImplementedException();
         }
-
-        public SocialNetworkType Type { get; set; }
-        public string Link { get; set; }
-        public SocialNetwork() { }
     }
 }
