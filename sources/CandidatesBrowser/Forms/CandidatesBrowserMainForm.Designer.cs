@@ -1,6 +1,6 @@
-﻿namespace DevWorkMainProject.Forms
+﻿namespace CandidatesBrowser.Forms
 {
-    partial class MainForm
+    partial class CandidatesBrowserMainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -224,7 +224,7 @@
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
-            // MainForm
+            // CandidatesBrowserMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -232,8 +232,8 @@
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.layoutControl1);
             this.MinimumSize = new System.Drawing.Size(800, 600);
-            this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Name = "CandidatesBrowserMainForm";
+            this.Text = "Candidates Browser";
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);

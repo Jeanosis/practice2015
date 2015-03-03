@@ -1,4 +1,4 @@
-﻿namespace DevWorkMainProject.Forms
+﻿namespace CandidatesBrowser.Forms
 {
     partial class CandidateForm
     {

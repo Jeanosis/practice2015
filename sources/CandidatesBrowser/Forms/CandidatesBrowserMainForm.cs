@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using HumanResourcesLibrary.DataClasses;
 
-namespace DevWorkMainProject.Forms
+namespace CandidatesBrowser.Forms
 {
-    public partial class MainForm : Form
+    public partial class CandidatesBrowserMainForm : Form
     {
-        public MainForm()
+        public CandidatesBrowserMainForm()
         {
             InitializeComponent();
         }
